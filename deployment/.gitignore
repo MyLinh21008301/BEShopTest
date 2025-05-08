@@ -1,0 +1,10 @@
+/.env
+/db-volume/product-mongo-data/*
+/db-volume/review-mongo-data/*
+/db-volume/cart-mongo-data/*
+/db-volume/voucher-mongo-data/*
+/db-volume/order-mysql-data/*
+/db-volume/redis-data/*
+/.data/*
+/temp/*
+/temp

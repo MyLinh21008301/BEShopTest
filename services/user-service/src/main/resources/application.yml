@@ -1,0 +1,12 @@
+server:
+  port: 8007
+  
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/user-service
+      database: user-service
+      
+       

@@ -13,11 +13,11 @@ services:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
       - key: SPRING_CLOUD_CONFIG_SERVER_GIT_USERNAME
-        value: MyLinh21008301 # Enter GitHub username manually
-        # sync: false # Enter GitHub username manually in Render Dashboard
+        # value: MyLinh21008301 # Enter GitHub username manually
+        sync: false # Enter GitHub username manually in Render Dashboard
       - key: SPRING_CLOUD_CONFIG_SERVER_GIT_PASSWORD
-        value: ${{ secrets.RENDER_TEST } # Enter GitHub token manually
-        #sync: false # Enter GitHub token manually in Render Dashboard
+        # value: ${{ secrets.RENDER_TEST } # Enter GitHub token manually
+        sync: false # Enter GitHub token manually in Render Dashboard
       - key: SPRING_CLOUD_CONFIG_SERVER_GIT_URI
         value: https://github.com/MyLinh21008301/BEShopTest.git # Add your Git repository URI
 
